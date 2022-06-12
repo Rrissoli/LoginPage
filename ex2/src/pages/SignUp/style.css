@@ -1,0 +1,130 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container_right{
+    width: 40%;
+    height: 100%;
+
+    background-image: url(../../assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container_left{
+    width: 60%;
+    height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.container_formulario{
+    width: 416px;
+    height: 500px;
+   
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    padding: 10px 0;
+}
+h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+}
+form{
+    display:flex;
+    flex-direction: column;
+
+    margin-top: 32px;
+}
+input{
+    width: 316px;
+    height: 40px;
+
+    margin-top: 10px;
+
+    background: #FDFAFA;
+border: 1px solid #E8E8E8;
+
+border-radius: 20px;
+
+padding-left: 10px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.container_button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+}
+button{
+    all: unset;
+    border-radius: 8px;
+    width: 316px;
+    height: 40px;
+
+    color: white;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.azul{
+    background-color: #2A4D77;
+}
+.vermelho{
+    background: rgba(251, 6, 21, 0.65);
+margin-top: 10px;
+    border: 1px solid #E8E8E8;
+}
+p{
+
+    margin-top: 30px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+}
+.olhinho{
+    width: 28px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+}
+.error{
+    color: rgba(255, 0, 0, 0.7);
+    
+}
+.sucess{
+    color: rgba(0, 255, 30, 0.7);
+    
+}
+.woman{
+    width: 446px;
+height: 478.91px;
+
+}
